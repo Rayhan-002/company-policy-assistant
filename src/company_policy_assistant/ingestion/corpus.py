@@ -22,6 +22,10 @@ def load_document(path: Path) -> tuple[DocumentMeta, str]:
     return meta, post.content
 
 
+def list_documents(corpus_dir: Path = DEFAULT_CORPUS_DIR) -> list[DocumentMeta]:
+    return [load_document(path)[0] for path in iter_corpus_files(corpus_dir)]
+
+
 def build_chunks(corpus_dir: Path = DEFAULT_CORPUS_DIR) -> list[Chunk]:
     chunks: list[Chunk] = []
     for path in iter_corpus_files(corpus_dir):
