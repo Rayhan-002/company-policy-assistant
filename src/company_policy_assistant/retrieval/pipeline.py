@@ -3,7 +3,7 @@ from pathlib import Path
 
 from ..ingestion import Chunk, build_chunks
 from .bm25_index import BM25Index
-from .hybrid import HybridRetriever
+from .hybrid import DEFAULT_CANDIDATE_K, HybridRetriever
 from .reranker import rerank
 from .vector_index import VectorIndex
 
@@ -28,7 +28,7 @@ class Retriever:
         bm25_index = BM25Index.load(index_dir)
         return cls(chunks, vector_index, bm25_index)
 
-    def retrieve(self, query: str, top_k: int = 5, candidate_k: int = 20) -> list[RetrievedChunk]:
+    def retrieve(self, query: str, top_k: int = 5, candidate_k: int = DEFAULT_CANDIDATE_K) -> list[RetrievedChunk]:
         candidates = self.hybrid.search(query, top_k=candidate_k)
         candidate_chunks = [(chunk_id, self.chunk_by_id[chunk_id]) for chunk_id, _score in candidates]
         reranked = rerank(query, candidate_chunks, top_k=top_k)

@@ -3,6 +3,7 @@ from .embeddings import embed_query
 from .vector_index import VectorIndex
 
 DEFAULT_RRF_K = 60
+DEFAULT_CANDIDATE_K = 40
 
 
 def reciprocal_rank_fusion(
@@ -20,7 +21,7 @@ class HybridRetriever:
         self.vector_index = vector_index
         self.bm25_index = bm25_index
 
-    def search(self, query: str, top_k: int = 10, candidate_k: int = 20) -> list[tuple[str, float]]:
+    def search(self, query: str, top_k: int = 10, candidate_k: int = DEFAULT_CANDIDATE_K) -> list[tuple[str, float]]:
         query_vector = embed_query(query)
         dense_results = self.vector_index.search(query_vector, top_k=candidate_k)
         sparse_results = self.bm25_index.search(query, top_k=candidate_k)
