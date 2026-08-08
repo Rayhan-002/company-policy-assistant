@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+#vscode settings
+.vscode/
+
+#project instructions and plans
+plan.md
+progress.md
+Company Policy Assistant_idea.md
+
