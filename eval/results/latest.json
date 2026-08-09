@@ -1,0 +1,1570 @@
+{
+  "retrieval": [
+    {
+      "question_id": "applicability-001",
+      "category": "applicability_conflict",
+      "gold_chunk_ids": [
+        "contractor-policy__v1.0__2",
+        "leave-policy__v3.0__3"
+      ],
+      "hybrid_chunk_ids": [
+        "contractor-policy__v1.0__2",
+        "leave-policy__v3.0__3",
+        "leave-policy__v3.0__5",
+        "employee-handbook__v1.0__3",
+        "leave-policy__v2.0__2",
+        "leave-policy__v3.0__7",
+        "attendance-policy__v1.0__5",
+        "benefits-policy__v1.0__3",
+        "leave-policy__v3.0__1",
+        "leave-policy__v3.0__2"
+      ],
+      "reranked_chunk_ids": [
+        "leave-policy__v3.0__1",
+        "leave-policy__v2.0__2",
+        "employee-handbook__v1.0__3",
+        "contractor-policy__v1.0__2",
+        "leave-policy__v3.0__5",
+        "leave-policy__v3.0__3",
+        "leave-policy__v2.0__4",
+        "leave-policy__v3.0__7",
+        "leave-policy__v3.0__2",
+        "leave-policy__v2.0__3"
+      ]
+    },
+    {
+      "question_id": "applicability-002",
+      "category": "applicability_conflict",
+      "gold_chunk_ids": [
+        "contractor-policy__v1.0__3",
+        "benefits-policy__v1.0__3"
+      ],
+      "hybrid_chunk_ids": [
+        "contractor-policy__v1.0__3",
+        "benefits-policy__v1.0__3",
+        "leave-policy__v3.0__3",
+        "benefits-policy__v1.0__1",
+        "contractor-policy__v1.0__2",
+        "benefits-policy__v1.0__0",
+        "contractor-policy__v1.0__1",
+        "device-policy__v1.0__0",
+        "employee-handbook__v1.0__1",
+        "contractor-policy__v1.0__6"
+      ],
+      "reranked_chunk_ids": [
+        "contractor-policy__v1.0__3",
+        "benefits-policy__v1.0__3",
+        "leave-policy__v3.0__3",
+        "contractor-policy__v1.0__2",
+        "benefits-policy__v1.0__1",
+        "contractor-policy__v1.0__1",
+        "contractor-policy__v1.0__5",
+        "contractor-policy__v1.0__6",
+        "benefits-policy__v1.0__4",
+        "contractor-policy__v1.0__0"
+      ]
+    },
+    {
+      "question_id": "applicability-003",
+      "category": "applicability_conflict",
+      "gold_chunk_ids": [
+        "contractor-policy__v1.0__4",
+        "device-policy__v1.0__2"
+      ],
+      "hybrid_chunk_ids": [
+        "device-policy__v1.0__2",
+        "device-policy__v1.0__3",
+        "device-policy__v1.0__5",
+        "acceptable-use-policy__v1.0__1",
+        "benefits-policy__v1.0__3",
+        "procurement-policy__v1.0__4",
+        "contractor-policy__v1.0__2",
+        "device-policy__v1.0__1",
+        "leave-policy__v3.0__3",
+        "employee-handbook__v1.0__1"
+      ],
+      "reranked_chunk_ids": [
+        "device-policy__v1.0__2",
+        "device-policy__v1.0__1",
+        "device-policy__v1.0__3",
+        "device-policy__v1.0__5",
+        "contractor-policy__v1.0__4",
+        "contractor-policy__v1.0__1",
+        "acceptable-use-policy__v1.0__1",
+        "procurement-policy__v1.0__0",
+        "contractor-policy__v1.0__0",
+        "procurement-policy__v1.0__4"
+      ]
+    },
+    {
+      "question_id": "applicability-004",
+      "category": "applicability_conflict",
+      "gold_chunk_ids": [
+        "contractor-policy__v1.0__5"
+      ],
+      "hybrid_chunk_ids": [
+        "benefits-policy__v1.0__3",
+        "leave-policy__v3.0__3",
+        "contractor-policy__v1.0__2",
+        "acceptable-use-policy__v1.0__3",
+        "employee-handbook__v1.0__5",
+        "contractor-policy__v1.0__5",
+        "code-of-conduct__v1.0__5",
+        "conflict-of-interest-policy__v1.0__6",
+        "attendance-policy__v1.0__6",
+        "contractor-policy__v1.0__6"
+      ],
+      "reranked_chunk_ids": [
+        "contractor-policy__v1.0__5",
+        "code-of-conduct__v1.0__0",
+        "employee-handbook__v1.0__5",
+        "acceptable-use-policy__v1.0__3",
+        "device-policy__v1.0__5",
+        "device-policy__v1.0__2",
+        "code-of-conduct__v1.0__6",
+        "contractor-policy__v1.0__4",
+        "code-of-conduct__v1.0__5",
+        "acceptable-use-policy__v1.0__5"
+      ]
+    },
+    {
+      "question_id": "version-001",
+      "category": "version_delta",
+      "gold_chunk_ids": [
+        "remote-work-policy__v3.0__2"
+      ],
+      "hybrid_chunk_ids": [
+        "remote-work-policy__v1.0__3",
+        "remote-work-policy__v1.0__2",
+        "remote-work-policy__v2.0__2",
+        "remote-work-policy__v3.0__1",
+        "remote-work-policy__v2.0__3",
+        "attendance-policy__v1.0__3",
+        "remote-work-policy__v3.0__4",
+        "remote-work-policy__v3.0__2",
+        "acceptable-use-policy__v1.0__0",
+        "remote-work-policy__v2.0__5"
+      ],
+      "reranked_chunk_ids": [
+        "remote-work-policy__v1.0__2",
+        "remote-work-policy__v2.0__2",
+        "remote-work-policy__v3.0__1",
+        "remote-work-policy__v1.0__3",
+        "remote-work-policy__v2.0__3",
+        "remote-work-policy__v3.0__3",
+        "remote-work-policy__v2.0__4",
+        "remote-work-policy__v2.0__5",
+        "attendance-policy__v1.0__3",
+        "remote-work-policy__v3.0__2"
+      ]
+    },
+    {
+      "question_id": "version-002",
+      "category": "version_delta",
+      "gold_chunk_ids": [
+        "remote-work-policy__v3.0__4"
+      ],
+      "hybrid_chunk_ids": [
+        "remote-work-policy__v1.0__0",
+        "attendance-policy__v1.0__3",
+        "remote-work-policy__v2.0__0",
+        "remote-work-policy__v3.0__4",
+        "remote-work-policy__v2.0__3",
+        "acceptable-use-policy__v1.0__0",
+        "remote-work-policy__v3.0__0",
+        "remote-work-policy__v1.0__3",
+        "remote-work-policy__v2.0__5",
+        "acceptable-use-policy__v1.0__2"
+      ],
+      "reranked_chunk_ids": [
+        "remote-work-policy__v3.0__0",
+        "remote-work-policy__v2.0__0",
+        "remote-work-policy__v1.0__0",
+        "remote-work-policy__v2.0__3",
+        "attendance-policy__v1.0__3",
+        "acceptable-use-policy__v1.0__0",
+        "remote-work-policy__v3.0__4",
+        "remote-work-policy__v1.0__3",
+        "remote-work-policy__v2.0__5",
+        "remote-work-policy__v1.0__4"
+      ]
+    },
+    {
+      "question_id": "version-003",
+      "category": "version_delta",
+      "gold_chunk_ids": [
+        "remote-work-policy__v3.0__2"
+      ],
+      "hybrid_chunk_ids": [
+        "remote-work-policy__v2.0__5",
+        "remote-work-policy__v3.0__4",
+        "remote-work-policy__v1.0__3",
+        "remote-work-policy__v2.0__3",
+        "remote-work-policy__v3.0__0",
+        "acceptable-use-policy__v1.0__0",
+        "attendance-policy__v1.0__3",
+        "remote-work-policy__v1.0__0",
+        "remote-work-policy__v3.0__2",
+        "remote-work-policy__v2.0__0"
+      ],
+      "reranked_chunk_ids": [
+        "remote-work-policy__v2.0__3",
+        "remote-work-policy__v2.0__5",
+        "remote-work-policy__v3.0__4",
+        "remote-work-policy__v3.0__2",
+        "remote-work-policy__v1.0__3",
+        "attendance-policy__v1.0__3",
+        "remote-work-policy__v3.0__0",
+        "remote-work-policy__v2.0__4",
+        "remote-work-policy__v3.0__3",
+        "remote-work-policy__v2.0__0"
+      ]
+    },
+    {
+      "question_id": "version-004",
+      "category": "version_delta",
+      "gold_chunk_ids": [
+        "leave-policy__v3.0__1"
+      ],
+      "hybrid_chunk_ids": [
+        "leave-policy__v2.0__2",
+        "employee-handbook__v1.0__3",
+        "leave-policy__v3.0__1",
+        "leave-policy__v3.0__2",
+        "leave-policy__v2.0__3",
+        "leave-policy__v3.0__5",
+        "attendance-policy__v1.0__5",
+        "leave-policy__v3.0__3",
+        "leave-policy__v3.0__7",
+        "contractor-policy__v1.0__2"
+      ],
+      "reranked_chunk_ids": [
+        "leave-policy__v3.0__1",
+        "employee-handbook__v1.0__3",
+        "leave-policy__v2.0__2",
+        "leave-policy__v3.0__5",
+        "leave-policy__v3.0__7",
+        "leave-policy__v2.0__4",
+        "attendance-policy__v1.0__5",
+        "leave-policy__v3.0__2",
+        "benefits-policy__v1.0__1",
+        "leave-policy__v2.0__3"
+      ]
+    },
+    {
+      "question_id": "version-005",
+      "category": "version_delta",
+      "gold_chunk_ids": [
+        "leave-policy__v3.0__7"
+      ],
+      "hybrid_chunk_ids": [
+        "contractor-policy__v1.0__2",
+        "leave-policy__v3.0__7",
+        "attendance-policy__v1.0__0",
+        "attendance-policy__v1.0__5",
+        "leave-policy__v3.0__4",
+        "benefits-policy__v1.0__0",
+        "employee-handbook__v1.0__3",
+        "leave-policy__v2.0__5",
+        "leave-policy__v2.0__0",
+        "leave-policy__v3.0__3"
+      ],
+      "reranked_chunk_ids": [
+        "leave-policy__v3.0__7",
+        "leave-policy__v2.0__0",
+        "attendance-policy__v1.0__0",
+        "leave-policy__v3.0__4",
+        "leave-policy__v3.0__0",
+        "attendance-policy__v1.0__5",
+        "employee-handbook__v1.0__3",
+        "contractor-policy__v1.0__2",
+        "leave-policy__v3.0__3",
+        "leave-policy__v2.0__1"
+      ]
+    },
+    {
+      "question_id": "stale-001",
+      "category": "stale_reference",
+      "gold_chunk_ids": [
+        "employee-handbook__v1.0__3"
+      ],
+      "hybrid_chunk_ids": [
+        "employee-handbook__v1.0__3",
+        "leave-policy__v3.0__5",
+        "leave-policy__v2.0__3",
+        "leave-policy__v3.0__2",
+        "attendance-policy__v1.0__5",
+        "leave-policy__v3.0__1",
+        "leave-policy__v2.0__2",
+        "leave-policy__v3.0__7",
+        "leave-policy__v3.0__3",
+        "contractor-policy__v1.0__2"
+      ],
+      "reranked_chunk_ids": [
+        "leave-policy__v3.0__1",
+        "leave-policy__v2.0__2",
+        "employee-handbook__v1.0__3",
+        "leave-policy__v3.0__5",
+        "leave-policy__v3.0__7",
+        "attendance-policy__v1.0__5",
+        "leave-policy__v2.0__4",
+        "remote-work-policy__v3.0__2",
+        "leave-policy__v3.0__2",
+        "leave-policy__v2.0__3"
+      ]
+    },
+    {
+      "question_id": "stale-002",
+      "category": "stale_reference",
+      "gold_chunk_ids": [
+        "leave-policy__v3.0__1"
+      ],
+      "hybrid_chunk_ids": [
+        "employee-handbook__v1.0__3",
+        "leave-policy__v3.0__5",
+        "leave-policy__v3.0__1",
+        "leave-policy__v2.0__2",
+        "leave-policy__v2.0__4",
+        "leave-policy__v2.0__5",
+        "attendance-policy__v1.0__5",
+        "leave-policy__v3.0__7",
+        "remote-work-policy__v3.0__2",
+        "leave-policy__v2.0__6"
+      ],
+      "reranked_chunk_ids": [
+        "employee-handbook__v1.0__3",
+        "leave-policy__v3.0__1",
+        "leave-policy__v2.0__2",
+        "leave-policy__v3.0__5",
+        "leave-policy__v2.0__4",
+        "leave-policy__v3.0__7",
+        "remote-work-policy__v3.0__2",
+        "attendance-policy__v1.0__5",
+        "leave-policy__v2.0__6",
+        "leave-policy__v3.0__6"
+      ]
+    },
+    {
+      "question_id": "term-001",
+      "category": "term_disambiguation",
+      "gold_chunk_ids": [
+        "attendance-policy__v1.0__4",
+        "attendance-policy__v1.0__5"
+      ],
+      "hybrid_chunk_ids": [
+        "employee-handbook__v1.0__4",
+        "attendance-policy__v1.0__4",
+        "attendance-policy__v1.0__0",
+        "attendance-policy__v1.0__5",
+        "employee-handbook__v1.0__3",
+        "leave-policy__v3.0__3",
+        "leave-policy__v3.0__6",
+        "contractor-policy__v1.0__2",
+        "leave-policy__v2.0__6",
+        "benefits-policy__v1.0__0"
+      ],
+      "reranked_chunk_ids": [
+        "attendance-policy__v1.0__4",
+        "employee-handbook__v1.0__4",
+        "attendance-policy__v1.0__5",
+        "attendance-policy__v1.0__0",
+        "leave-policy__v3.0__6",
+        "leave-policy__v2.0__6",
+        "procurement-policy__v1.0__1",
+        "device-policy__v1.0__4",
+        "leave-policy__v3.0__4",
+        "leave-policy__v2.0__4"
+      ]
+    },
+    {
+      "question_id": "term-002",
+      "category": "term_disambiguation",
+      "gold_chunk_ids": [
+        "attendance-policy__v1.0__5"
+      ],
+      "hybrid_chunk_ids": [
+        "attendance-policy__v1.0__5",
+        "employee-handbook__v1.0__4",
+        "attendance-policy__v1.0__0",
+        "contractor-policy__v1.0__2",
+        "benefits-policy__v1.0__4",
+        "leave-policy__v3.0__3",
+        "benefits-policy__v1.0__0",
+        "leave-policy__v2.0__6",
+        "leave-policy__v3.0__6",
+        "benefits-policy__v1.0__3"
+      ],
+      "reranked_chunk_ids": [
+        "attendance-policy__v1.0__5",
+        "attendance-policy__v1.0__4",
+        "employee-handbook__v1.0__4",
+        "attendance-policy__v1.0__0",
+        "leave-policy__v2.0__6",
+        "leave-policy__v3.0__6",
+        "benefits-policy__v1.0__1",
+        "leave-policy__v3.0__2",
+        "leave-policy__v2.0__4",
+        "leave-policy__v3.0__4"
+      ]
+    },
+    {
+      "question_id": "term-003",
+      "category": "term_disambiguation",
+      "gold_chunk_ids": [
+        "acceptable-use-policy__v1.0__1"
+      ],
+      "hybrid_chunk_ids": [
+        "acceptable-use-policy__v1.0__1",
+        "acceptable-use-policy__v1.0__0",
+        "password-policy__v1.0__2",
+        "attendance-policy__v1.0__3",
+        "remote-work-policy__v3.0__3",
+        "remote-work-policy__v2.0__4",
+        "acceptable-use-policy__v1.0__2",
+        "remote-work-policy__v1.0__4",
+        "remote-work-policy__v1.0__3",
+        "remote-work-policy__v3.0__4"
+      ],
+      "reranked_chunk_ids": [
+        "acceptable-use-policy__v1.0__1",
+        "acceptable-use-policy__v1.0__0",
+        "remote-work-policy__v3.0__3",
+        "remote-work-policy__v2.0__4",
+        "remote-work-policy__v1.0__4",
+        "attendance-policy__v1.0__3",
+        "password-policy__v1.0__2",
+        "acceptable-use-policy__v1.0__2",
+        "remote-work-policy__v3.0__1",
+        "remote-work-policy__v1.0__2"
+      ]
+    },
+    {
+      "question_id": "term-004",
+      "category": "term_disambiguation",
+      "gold_chunk_ids": [
+        "acceptable-use-policy__v1.0__1",
+        "acceptable-use-policy__v1.0__2"
+      ],
+      "hybrid_chunk_ids": [
+        "acceptable-use-policy__v1.0__1",
+        "acceptable-use-policy__v1.0__0",
+        "remote-work-policy__v3.0__3",
+        "remote-work-policy__v1.0__4",
+        "remote-work-policy__v2.0__4",
+        "password-policy__v1.0__2",
+        "acceptable-use-policy__v1.0__3",
+        "attendance-policy__v1.0__3",
+        "device-policy__v1.0__0",
+        "acceptable-use-policy__v1.0__2"
+      ],
+      "reranked_chunk_ids": [
+        "acceptable-use-policy__v1.0__1",
+        "remote-work-policy__v1.0__4",
+        "remote-work-policy__v3.0__3",
+        "remote-work-policy__v2.0__4",
+        "acceptable-use-policy__v1.0__0",
+        "acceptable-use-policy__v1.0__2",
+        "password-policy__v1.0__2",
+        "attendance-policy__v1.0__3",
+        "acceptable-use-policy__v1.0__3",
+        "remote-work-policy__v3.0__1"
+      ]
+    },
+    {
+      "question_id": "overlap-001",
+      "category": "overlapping_approval",
+      "gold_chunk_ids": [
+        "procurement-policy__v1.0__4",
+        "device-policy__v1.0__3"
+      ],
+      "hybrid_chunk_ids": [
+        "device-policy__v1.0__2",
+        "procurement-policy__v1.0__0",
+        "device-policy__v1.0__0",
+        "device-policy__v1.0__3",
+        "procurement-policy__v1.0__4",
+        "expense-policy__v1.0__2",
+        "device-policy__v1.0__1",
+        "password-policy__v1.0__2",
+        "procurement-policy__v1.0__6",
+        "expense-policy__v1.0__6"
+      ],
+      "reranked_chunk_ids": [
+        "device-policy__v1.0__2",
+        "procurement-policy__v1.0__0",
+        "procurement-policy__v1.0__4",
+        "device-policy__v1.0__1",
+        "device-policy__v1.0__3",
+        "procurement-policy__v1.0__6",
+        "device-policy__v1.0__0",
+        "procurement-policy__v1.0__5",
+        "procurement-policy__v1.0__3",
+        "procurement-policy__v1.0__2"
+      ]
+    },
+    {
+      "question_id": "overlap-002",
+      "category": "overlapping_approval",
+      "gold_chunk_ids": [
+        "device-policy__v1.0__4",
+        "procurement-policy__v1.0__2"
+      ],
+      "hybrid_chunk_ids": [
+        "device-policy__v1.0__3",
+        "device-policy__v1.0__4",
+        "procurement-policy__v1.0__4",
+        "device-policy__v1.0__2",
+        "conflict-of-interest-policy__v1.0__3",
+        "password-policy__v1.0__3",
+        "procurement-policy__v1.0__5",
+        "expense-policy__v1.0__2",
+        "procurement-policy__v1.0__3",
+        "device-policy__v1.0__1"
+      ],
+      "reranked_chunk_ids": [
+        "device-policy__v1.0__3",
+        "procurement-policy__v1.0__4",
+        "device-policy__v1.0__4",
+        "device-policy__v1.0__1",
+        "device-policy__v1.0__2",
+        "procurement-policy__v1.0__5",
+        "procurement-policy__v1.0__0",
+        "procurement-policy__v1.0__1",
+        "device-policy__v1.0__0",
+        "password-policy__v1.0__3"
+      ]
+    },
+    {
+      "question_id": "general-specific-001",
+      "category": "general_vs_specific",
+      "gold_chunk_ids": [
+        "travel-policy__v1.0__2",
+        "travel-policy__v1.0__3",
+        "travel-policy__v1.0__4"
+      ],
+      "hybrid_chunk_ids": [
+        "expense-policy__v1.0__6",
+        "travel-policy__v1.0__2",
+        "expense-policy__v1.0__0",
+        "travel-policy__v1.0__0",
+        "expense-policy__v1.0__5",
+        "travel-policy__v1.0__5",
+        "remote-work-policy__v2.0__3",
+        "expense-policy__v1.0__4",
+        "remote-work-policy__v3.0__2",
+        "travel-policy__v1.0__1"
+      ],
+      "reranked_chunk_ids": [
+        "travel-policy__v1.0__2",
+        "travel-policy__v1.0__4",
+        "expense-policy__v1.0__0",
+        "travel-policy__v1.0__5",
+        "expense-policy__v1.0__2",
+        "expense-policy__v1.0__5",
+        "travel-policy__v1.0__0",
+        "expense-policy__v1.0__4",
+        "remote-work-policy__v2.0__3",
+        "leave-policy__v3.0__7"
+      ]
+    },
+    {
+      "question_id": "general-specific-002",
+      "category": "general_vs_specific",
+      "gold_chunk_ids": [
+        "expense-policy__v1.0__3"
+      ],
+      "hybrid_chunk_ids": [
+        "travel-policy__v1.0__5",
+        "expense-policy__v1.0__2",
+        "expense-policy__v1.0__0",
+        "leave-policy__v3.0__7",
+        "travel-policy__v1.0__0",
+        "attendance-policy__v1.0__5",
+        "benefits-policy__v1.0__3",
+        "procurement-policy__v1.0__5",
+        "leave-policy__v2.0__0",
+        "remote-work-policy__v3.0__4"
+      ],
+      "reranked_chunk_ids": [
+        "expense-policy__v1.0__3",
+        "expense-policy__v1.0__5",
+        "travel-policy__v1.0__5",
+        "leave-policy__v3.0__6",
+        "leave-policy__v2.0__6",
+        "remote-work-policy__v3.0__2",
+        "remote-work-policy__v2.0__3",
+        "expense-policy__v1.0__0",
+        "expense-policy__v1.0__2",
+        "attendance-policy__v1.0__5"
+      ]
+    },
+    {
+      "question_id": "baseline-001",
+      "category": "clean_baseline",
+      "gold_chunk_ids": [
+        "password-policy__v1.0__1"
+      ],
+      "hybrid_chunk_ids": [
+        "password-policy__v1.0__3",
+        "password-policy__v1.0__0",
+        "acceptable-use-policy__v1.0__2",
+        "device-policy__v1.0__0",
+        "travel-policy__v1.0__5",
+        "benefits-policy__v1.0__3",
+        "procurement-policy__v1.0__4",
+        "device-policy__v1.0__3",
+        "device-policy__v1.0__2",
+        "contractor-policy__v1.0__2"
+      ],
+      "reranked_chunk_ids": [
+        "acceptable-use-policy__v1.0__2",
+        "password-policy__v1.0__0",
+        "password-policy__v1.0__3",
+        "password-policy__v1.0__1",
+        "password-policy__v1.0__2",
+        "password-policy__v1.0__4",
+        "acceptable-use-policy__v1.0__3",
+        "procurement-policy__v1.0__3",
+        "procurement-policy__v1.0__0",
+        "travel-policy__v1.0__5"
+      ]
+    },
+    {
+      "question_id": "baseline-002",
+      "category": "clean_baseline",
+      "gold_chunk_ids": [
+        "password-policy__v1.0__1"
+      ],
+      "hybrid_chunk_ids": [
+        "password-policy__v1.0__3",
+        "leave-policy__v3.0__7",
+        "remote-work-policy__v3.0__4",
+        "acceptable-use-policy__v1.0__2",
+        "password-policy__v1.0__0",
+        "employee-handbook__v1.0__4",
+        "conflict-of-interest-policy__v1.0__4",
+        "leave-policy__v2.0__5",
+        "password-policy__v1.0__4",
+        "attendance-policy__v1.0__4"
+      ],
+      "reranked_chunk_ids": [
+        "password-policy__v1.0__1",
+        "password-policy__v1.0__3",
+        "acceptable-use-policy__v1.0__2",
+        "password-policy__v1.0__0",
+        "remote-work-policy__v3.0__4",
+        "remote-work-policy__v2.0__3",
+        "remote-work-policy__v2.0__5",
+        "leave-policy__v3.0__7",
+        "attendance-policy__v1.0__5",
+        "remote-work-policy__v3.0__2"
+      ]
+    },
+    {
+      "question_id": "baseline-003",
+      "category": "clean_baseline",
+      "gold_chunk_ids": [
+        "password-policy__v1.0__4"
+      ],
+      "hybrid_chunk_ids": [
+        "password-policy__v1.0__3",
+        "employee-handbook__v1.0__4",
+        "acceptable-use-policy__v1.0__2",
+        "code-of-conduct__v1.0__5",
+        "benefits-policy__v1.0__3",
+        "password-policy__v1.0__0",
+        "device-policy__v1.0__0",
+        "password-policy__v1.0__4",
+        "leave-policy__v3.0__3",
+        "password-policy__v1.0__1"
+      ],
+      "reranked_chunk_ids": [
+        "password-policy__v1.0__4",
+        "acceptable-use-policy__v1.0__2",
+        "password-policy__v1.0__3",
+        "password-policy__v1.0__1",
+        "code-of-conduct__v1.0__5",
+        "acceptable-use-policy__v1.0__3",
+        "conflict-of-interest-policy__v1.0__6",
+        "password-policy__v1.0__0",
+        "procurement-policy__v1.0__1",
+        "acceptable-use-policy__v1.0__5"
+      ]
+    },
+    {
+      "question_id": "baseline-004",
+      "category": "clean_baseline",
+      "gold_chunk_ids": [
+        "conflict-of-interest-policy__v1.0__1"
+      ],
+      "hybrid_chunk_ids": [
+        "conflict-of-interest-policy__v1.0__0",
+        "conflict-of-interest-policy__v1.0__1",
+        "code-of-conduct__v1.0__4",
+        "conflict-of-interest-policy__v1.0__6",
+        "employee-handbook__v1.0__5",
+        "device-policy__v1.0__0",
+        "conflict-of-interest-policy__v1.0__5",
+        "travel-policy__v1.0__0",
+        "contractor-policy__v1.0__5",
+        "contractor-policy__v1.0__2"
+      ],
+      "reranked_chunk_ids": [
+        "conflict-of-interest-policy__v1.0__1",
+        "conflict-of-interest-policy__v1.0__0",
+        "conflict-of-interest-policy__v1.0__6",
+        "code-of-conduct__v1.0__4",
+        "employee-handbook__v1.0__5",
+        "contractor-policy__v1.0__5",
+        "conflict-of-interest-policy__v1.0__5",
+        "code-of-conduct__v1.0__1",
+        "travel-policy__v1.0__0",
+        "code-of-conduct__v1.0__6"
+      ]
+    },
+    {
+      "question_id": "baseline-005",
+      "category": "clean_baseline",
+      "gold_chunk_ids": [
+        "conflict-of-interest-policy__v1.0__4",
+        "conflict-of-interest-policy__v1.0__3"
+      ],
+      "hybrid_chunk_ids": [
+        "conflict-of-interest-policy__v1.0__3",
+        "conflict-of-interest-policy__v1.0__4",
+        "conflict-of-interest-policy__v1.0__2",
+        "code-of-conduct__v1.0__4",
+        "benefits-policy__v1.0__3",
+        "procurement-policy__v1.0__5",
+        "leave-policy__v3.0__3",
+        "remote-work-policy__v1.0__3",
+        "conflict-of-interest-policy__v1.0__6",
+        "remote-work-policy__v3.0__2"
+      ],
+      "reranked_chunk_ids": [
+        "conflict-of-interest-policy__v1.0__3",
+        "conflict-of-interest-policy__v1.0__4",
+        "conflict-of-interest-policy__v1.0__2",
+        "procurement-policy__v1.0__5",
+        "code-of-conduct__v1.0__4",
+        "conflict-of-interest-policy__v1.0__6",
+        "conflict-of-interest-policy__v1.0__5",
+        "expense-policy__v1.0__2",
+        "procurement-policy__v1.0__0",
+        "password-policy__v1.0__4"
+      ]
+    },
+    {
+      "question_id": "baseline-006",
+      "category": "clean_baseline",
+      "gold_chunk_ids": [
+        "code-of-conduct__v1.0__6"
+      ],
+      "hybrid_chunk_ids": [
+        "conflict-of-interest-policy__v1.0__6",
+        "attendance-policy__v1.0__6",
+        "acceptable-use-policy__v1.0__5",
+        "employee-handbook__v1.0__5",
+        "conflict-of-interest-policy__v1.0__0",
+        "code-of-conduct__v1.0__5",
+        "acceptable-use-policy__v1.0__3",
+        "code-of-conduct__v1.0__4",
+        "contractor-policy__v1.0__2",
+        "attendance-policy__v1.0__4"
+      ],
+      "reranked_chunk_ids": [
+        "acceptable-use-policy__v1.0__5",
+        "conflict-of-interest-policy__v1.0__6",
+        "employee-handbook__v1.0__5",
+        "code-of-conduct__v1.0__5",
+        "acceptable-use-policy__v1.0__3",
+        "attendance-policy__v1.0__6",
+        "code-of-conduct__v1.0__6",
+        "contractor-policy__v1.0__5",
+        "conflict-of-interest-policy__v1.0__0",
+        "conflict-of-interest-policy__v1.0__1"
+      ]
+    },
+    {
+      "question_id": "coverage-001",
+      "category": "broad_coverage",
+      "gold_chunk_ids": [
+        "attendance-policy__v1.0__1"
+      ],
+      "hybrid_chunk_ids": [
+        "attendance-policy__v1.0__1",
+        "employee-handbook__v1.0__2",
+        "attendance-policy__v1.0__0",
+        "contractor-policy__v1.0__2",
+        "attendance-policy__v1.0__3",
+        "employee-handbook__v1.0__3",
+        "leave-policy__v2.0__3",
+        "benefits-policy__v1.0__2",
+        "leave-policy__v3.0__2",
+        "leave-policy__v3.0__5"
+      ],
+      "reranked_chunk_ids": [
+        "attendance-policy__v1.0__1",
+        "employee-handbook__v1.0__2",
+        "attendance-policy__v1.0__0",
+        "remote-work-policy__v3.0__2",
+        "leave-policy__v2.0__3",
+        "leave-policy__v3.0__2",
+        "benefits-policy__v1.0__2",
+        "remote-work-policy__v3.0__4",
+        "attendance-policy__v1.0__4",
+        "employee-handbook__v1.0__3"
+      ]
+    },
+    {
+      "question_id": "coverage-002",
+      "category": "broad_coverage",
+      "gold_chunk_ids": [
+        "benefits-policy__v1.0__1"
+      ],
+      "hybrid_chunk_ids": [
+        "benefits-policy__v1.0__1",
+        "benefits-policy__v1.0__2",
+        "benefits-policy__v1.0__0",
+        "employee-handbook__v1.0__3",
+        "benefits-policy__v1.0__4",
+        "employee-handbook__v1.0__1",
+        "contractor-policy__v1.0__0",
+        "attendance-policy__v1.0__0",
+        "leave-policy__v2.0__2",
+        "contractor-policy__v1.0__3"
+      ],
+      "reranked_chunk_ids": [
+        "benefits-policy__v1.0__1",
+        "benefits-policy__v1.0__2",
+        "leave-policy__v3.0__1",
+        "employee-handbook__v1.0__3",
+        "leave-policy__v2.0__2",
+        "benefits-policy__v1.0__5",
+        "benefits-policy__v1.0__4",
+        "benefits-policy__v1.0__6",
+        "device-policy__v1.0__1",
+        "leave-policy__v3.0__2"
+      ]
+    },
+    {
+      "question_id": "coverage-003",
+      "category": "broad_coverage",
+      "gold_chunk_ids": [
+        "benefits-policy__v1.0__5"
+      ],
+      "hybrid_chunk_ids": [
+        "benefits-policy__v1.0__5",
+        "leave-policy__v2.0__5",
+        "device-policy__v1.0__0",
+        "benefits-policy__v1.0__0",
+        "contractor-policy__v1.0__2",
+        "attendance-policy__v1.0__0",
+        "code-of-conduct__v1.0__4",
+        "benefits-policy__v1.0__3",
+        "leave-policy__v3.0__3",
+        "conflict-of-interest-policy__v1.0__4"
+      ],
+      "reranked_chunk_ids": [
+        "benefits-policy__v1.0__5",
+        "procurement-policy__v1.0__1",
+        "code-of-conduct__v1.0__1",
+        "benefits-policy__v1.0__0",
+        "device-policy__v1.0__5",
+        "conflict-of-interest-policy__v1.0__4",
+        "contractor-policy__v1.0__0",
+        "employee-handbook__v1.0__3",
+        "attendance-policy__v1.0__5",
+        "benefits-policy__v1.0__4"
+      ]
+    },
+    {
+      "question_id": "coverage-004",
+      "category": "broad_coverage",
+      "gold_chunk_ids": [
+        "employee-handbook__v1.0__2"
+      ],
+      "hybrid_chunk_ids": [
+        "employee-handbook__v1.0__6",
+        "remote-work-policy__v3.0__4",
+        "remote-work-policy__v3.0__0",
+        "remote-work-policy__v2.0__3",
+        "remote-work-policy__v3.0__2",
+        "remote-work-policy__v1.0__3",
+        "attendance-policy__v1.0__3",
+        "employee-handbook__v1.0__2",
+        "remote-work-policy__v1.0__0",
+        "remote-work-policy__v2.0__0"
+      ],
+      "reranked_chunk_ids": [
+        "employee-handbook__v1.0__2",
+        "employee-handbook__v1.0__6",
+        "device-policy__v1.0__1",
+        "attendance-policy__v1.0__1",
+        "attendance-policy__v1.0__4",
+        "remote-work-policy__v3.0__2",
+        "remote-work-policy__v3.0__4",
+        "remote-work-policy__v2.0__5",
+        "remote-work-policy__v2.0__3",
+        "leave-policy__v2.0__2"
+      ]
+    },
+    {
+      "question_id": "coverage-005",
+      "category": "broad_coverage",
+      "gold_chunk_ids": [
+        "device-policy__v1.0__1"
+      ],
+      "hybrid_chunk_ids": [
+        "device-policy__v1.0__0",
+        "leave-policy__v3.0__1",
+        "benefits-policy__v1.0__1",
+        "employee-handbook__v1.0__3",
+        "leave-policy__v3.0__3",
+        "employee-handbook__v1.0__6",
+        "benefits-policy__v1.0__5",
+        "employee-handbook__v1.0__1",
+        "device-policy__v1.0__4",
+        "benefits-policy__v1.0__3"
+      ],
+      "reranked_chunk_ids": [
+        "device-policy__v1.0__1",
+        "employee-handbook__v1.0__6",
+        "benefits-policy__v1.0__5",
+        "remote-work-policy__v3.0__3",
+        "remote-work-policy__v2.0__4",
+        "remote-work-policy__v1.0__4",
+        "leave-policy__v3.0__1",
+        "contractor-policy__v1.0__0",
+        "device-policy__v1.0__5",
+        "employee-handbook__v1.0__1"
+      ]
+    },
+    {
+      "question_id": "coverage-006",
+      "category": "broad_coverage",
+      "gold_chunk_ids": [
+        "device-policy__v1.0__5"
+      ],
+      "hybrid_chunk_ids": [
+        "attendance-policy__v1.0__0",
+        "device-policy__v1.0__2",
+        "contractor-policy__v1.0__2",
+        "password-policy__v1.0__3",
+        "procurement-policy__v1.0__4",
+        "device-policy__v1.0__3",
+        "acceptable-use-policy__v1.0__3",
+        "device-policy__v1.0__5",
+        "employee-handbook__v1.0__4",
+        "leave-policy__v2.0__5"
+      ],
+      "reranked_chunk_ids": [
+        "device-policy__v1.0__1",
+        "device-policy__v1.0__5",
+        "device-policy__v1.0__2",
+        "attendance-policy__v1.0__4",
+        "conflict-of-interest-policy__v1.0__4",
+        "password-policy__v1.0__3",
+        "acceptable-use-policy__v1.0__1",
+        "code-of-conduct__v1.0__1",
+        "procurement-policy__v1.0__0",
+        "employee-handbook__v1.0__4"
+      ]
+    },
+    {
+      "question_id": "coverage-007",
+      "category": "broad_coverage",
+      "gold_chunk_ids": [
+        "conflict-of-interest-policy__v1.0__2"
+      ],
+      "hybrid_chunk_ids": [
+        "conflict-of-interest-policy__v1.0__2",
+        "code-of-conduct__v1.0__4",
+        "remote-work-policy__v3.0__2",
+        "remote-work-policy__v1.0__3",
+        "conflict-of-interest-policy__v1.0__0",
+        "conflict-of-interest-policy__v1.0__5",
+        "code-of-conduct__v1.0__6",
+        "employee-handbook__v1.0__7",
+        "contractor-policy__v1.0__2",
+        "attendance-policy__v1.0__3"
+      ],
+      "reranked_chunk_ids": [
+        "conflict-of-interest-policy__v1.0__2",
+        "conflict-of-interest-policy__v1.0__0",
+        "code-of-conduct__v1.0__6",
+        "device-policy__v1.0__5",
+        "remote-work-policy__v2.0__1",
+        "remote-work-policy__v1.0__1",
+        "code-of-conduct__v1.0__4",
+        "code-of-conduct__v1.0__1",
+        "remote-work-policy__v1.0__3",
+        "procurement-policy__v1.0__1"
+      ]
+    },
+    {
+      "question_id": "coverage-008",
+      "category": "broad_coverage",
+      "gold_chunk_ids": [
+        "password-policy__v1.0__2"
+      ],
+      "hybrid_chunk_ids": [
+        "password-policy__v1.0__2",
+        "acceptable-use-policy__v1.0__2",
+        "expense-policy__v1.0__2",
+        "procurement-policy__v1.0__0",
+        "password-policy__v1.0__0",
+        "remote-work-policy__v3.0__4",
+        "device-policy__v1.0__0",
+        "password-policy__v1.0__3",
+        "travel-policy__v1.0__5",
+        "remote-work-policy__v1.0__3"
+      ],
+      "reranked_chunk_ids": [
+        "password-policy__v1.0__2",
+        "acceptable-use-policy__v1.0__2",
+        "password-policy__v1.0__0",
+        "password-policy__v1.0__4",
+        "acceptable-use-policy__v1.0__3",
+        "expense-policy__v1.0__4",
+        "expense-policy__v1.0__2",
+        "procurement-policy__v1.0__3",
+        "acceptable-use-policy__v1.0__1",
+        "password-policy__v1.0__3"
+      ]
+    },
+    {
+      "question_id": "paraphrase-001",
+      "category": "paraphrase_hard",
+      "gold_chunk_ids": [
+        "remote-work-policy__v3.0__2"
+      ],
+      "hybrid_chunk_ids": [
+        "attendance-policy__v1.0__3",
+        "attendance-policy__v1.0__1",
+        "remote-work-policy__v3.0__4",
+        "remote-work-policy__v1.0__2",
+        "remote-work-policy__v2.0__2",
+        "remote-work-policy__v3.0__1",
+        "remote-work-policy__v1.0__3",
+        "remote-work-policy__v3.0__0",
+        "remote-work-policy__v2.0__3",
+        "remote-work-policy__v2.0__5"
+      ],
+      "reranked_chunk_ids": [
+        "remote-work-policy__v2.0__5",
+        "attendance-policy__v1.0__1",
+        "leave-policy__v2.0__4",
+        "remote-work-policy__v1.0__2",
+        "remote-work-policy__v2.0__2",
+        "remote-work-policy__v3.0__1",
+        "remote-work-policy__v2.0__3",
+        "remote-work-policy__v3.0__4",
+        "remote-work-policy__v1.0__4",
+        "remote-work-policy__v1.0__3"
+      ]
+    },
+    {
+      "question_id": "paraphrase-002",
+      "category": "paraphrase_hard",
+      "gold_chunk_ids": [
+        "procurement-policy__v1.0__2"
+      ],
+      "hybrid_chunk_ids": [
+        "contractor-policy__v1.0__2",
+        "remote-work-policy__v3.0__4",
+        "device-policy__v1.0__0",
+        "conflict-of-interest-policy__v1.0__4",
+        "procurement-policy__v1.0__4",
+        "device-policy__v1.0__3",
+        "employee-handbook__v1.0__4",
+        "password-policy__v1.0__3",
+        "procurement-policy__v1.0__1",
+        "attendance-policy__v1.0__4"
+      ],
+      "reranked_chunk_ids": [
+        "remote-work-policy__v3.0__4",
+        "conflict-of-interest-policy__v1.0__4",
+        "procurement-policy__v1.0__1",
+        "device-policy__v1.0__3",
+        "attendance-policy__v1.0__4",
+        "procurement-policy__v1.0__2",
+        "device-policy__v1.0__4",
+        "device-policy__v1.0__2",
+        "leave-policy__v2.0__6",
+        "leave-policy__v3.0__6"
+      ]
+    },
+    {
+      "question_id": "paraphrase-003",
+      "category": "paraphrase_hard",
+      "gold_chunk_ids": [
+        "conflict-of-interest-policy__v1.0__4"
+      ],
+      "hybrid_chunk_ids": [
+        "expense-policy__v1.0__2",
+        "procurement-policy__v1.0__0",
+        "employee-handbook__v1.0__4",
+        "attendance-policy__v1.0__0",
+        "conflict-of-interest-policy__v1.0__3",
+        "attendance-policy__v1.0__4",
+        "benefits-policy__v1.0__0",
+        "leave-policy__v2.0__0",
+        "device-policy__v1.0__4",
+        "device-policy__v1.0__0"
+      ],
+      "reranked_chunk_ids": [
+        "conflict-of-interest-policy__v1.0__3",
+        "conflict-of-interest-policy__v1.0__4",
+        "procurement-policy__v1.0__1",
+        "conflict-of-interest-policy__v1.0__2",
+        "procurement-policy__v1.0__5",
+        "leave-policy__v2.0__4",
+        "employee-handbook__v1.0__7",
+        "password-policy__v1.0__4",
+        "expense-policy__v1.0__2",
+        "leave-policy__v2.0__5"
+      ]
+    },
+    {
+      "question_id": "insufficient-001",
+      "category": "insufficient_evidence",
+      "gold_chunk_ids": [],
+      "hybrid_chunk_ids": [
+        "contractor-policy__v1.0__2",
+        "attendance-policy__v1.0__5",
+        "attendance-policy__v1.0__0",
+        "benefits-policy__v1.0__0",
+        "attendance-policy__v1.0__4",
+        "leave-policy__v2.0__0",
+        "employee-handbook__v1.0__3",
+        "leave-policy__v2.0__5",
+        "leave-policy__v3.0__5",
+        "leave-policy__v3.0__4"
+      ],
+      "reranked_chunk_ids": [
+        "attendance-policy__v1.0__0",
+        "leave-policy__v2.0__1",
+        "leave-policy__v3.0__0",
+        "employee-handbook__v1.0__3",
+        "remote-work-policy__v2.0__1",
+        "remote-work-policy__v1.0__1",
+        "benefits-policy__v1.0__0",
+        "leave-policy__v3.0__4",
+        "contractor-policy__v1.0__2",
+        "attendance-policy__v1.0__5"
+      ]
+    },
+    {
+      "question_id": "insufficient-002",
+      "category": "insufficient_evidence",
+      "gold_chunk_ids": [],
+      "hybrid_chunk_ids": [
+        "device-policy__v1.0__0",
+        "benefits-policy__v1.0__0",
+        "conflict-of-interest-policy__v1.0__4",
+        "benefits-policy__v1.0__5",
+        "leave-policy__v2.0__5",
+        "contractor-policy__v1.0__2",
+        "attendance-policy__v1.0__0",
+        "device-policy__v1.0__4",
+        "attendance-policy__v1.0__5",
+        "contractor-policy__v1.0__3"
+      ],
+      "reranked_chunk_ids": [
+        "code-of-conduct__v1.0__1",
+        "benefits-policy__v1.0__5",
+        "contractor-policy__v1.0__6",
+        "procurement-policy__v1.0__1",
+        "contractor-policy__v1.0__0",
+        "conflict-of-interest-policy__v1.0__2",
+        "remote-work-policy__v2.0__1",
+        "remote-work-policy__v1.0__1",
+        "conflict-of-interest-policy__v1.0__4",
+        "device-policy__v1.0__5"
+      ]
+    },
+    {
+      "question_id": "insufficient-003",
+      "category": "insufficient_evidence",
+      "gold_chunk_ids": [],
+      "hybrid_chunk_ids": [
+        "code-of-conduct__v1.0__4",
+        "expense-policy__v1.0__0",
+        "contractor-policy__v1.0__2",
+        "attendance-policy__v1.0__5",
+        "benefits-policy__v1.0__3",
+        "remote-work-policy__v3.0__2",
+        "employee-handbook__v1.0__0",
+        "attendance-policy__v1.0__3",
+        "remote-work-policy__v3.0__4",
+        "benefits-policy__v1.0__1"
+      ],
+      "reranked_chunk_ids": [
+        "code-of-conduct__v1.0__4",
+        "expense-policy__v1.0__3",
+        "remote-work-policy__v3.0__2",
+        "conflict-of-interest-policy__v1.0__5",
+        "remote-work-policy__v2.0__1",
+        "remote-work-policy__v1.0__1",
+        "benefits-policy__v1.0__5",
+        "benefits-policy__v1.0__2",
+        "expense-policy__v1.0__5",
+        "conflict-of-interest-policy__v1.0__0"
+      ]
+    }
+  ],
+  "generation": [
+    {
+      "question_id": "applicability-001",
+      "category": "applicability_conflict",
+      "generated_answer": "According to [4], as a contractor, you are **not** eligible for annual leave benefits under the Leave Policy. Your time off is governed solely by the terms of your individual contractor agreement. I couldn't find enough information in the company knowledge base to provide the specific details of your annual leave, as it would depend on the terms outlined in your contract.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the context excerpts and matches the reference answer's key facts.",
+      "error": null
+    },
+    {
+      "question_id": "applicability-002",
+      "category": "applicability_conflict",
+      "generated_answer": "According to [1] Contractor Policy, contractors are **not** eligible for health insurance. This is further supported by [2] Benefits Policy, which also states that contractors are not eligible for any benefits, including health insurance, and refers to the Contractor Policy for details. Therefore, as a contractor, you are not eligible for health insurance.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the context excerpts regarding contractor eligibility for health insurance.",
+      "error": null
+    },
+    {
+      "question_id": "applicability-003",
+      "category": "applicability_conflict",
+      "generated_answer": "As a contractor, you may be issued a laptop, but it requires department head approval, as stated in [1] and also referenced in [5]. The laptop issuance for contractors still follows the dollar-based approval thresholds defined in the Procurement Policy, although the specifics of those thresholds are not detailed in the provided context.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the context excerpts without introducing outside information.",
+      "error": null
+    },
+    {
+      "question_id": "applicability-004",
+      "category": "applicability_conflict",
+      "generated_answer": "According to [1] Contractor Policy and [2] Code of Conduct, yes, contractors are expected to follow the Code of Conduct. [1] states that contractors \"remain subject to the Code of Conduct\" for the duration of their engagement, and [2] explicitly includes contractors as being subject to the standards of conduct outlined in the policy.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the context excerpts regarding contractors' obligation to follow the Code of Conduct.",
+      "error": null
+    },
+    {
+      "question_id": "version-001",
+      "category": "version_delta",
+      "generated_answer": "According to the active version of the policy [3] and the relevant archived versions [4] and [5], international remote work was initially not permitted [4], but a later version [5] introduced the possibility of working remotely from another country under certain conditions. Since [5] is archived and [3] does not explicitly address international remote work, I couldn't find enough information in the company knowledge base to answer this reliably, as the current policy [3] only mentions domestic remote work.",
+      "faithful": true,
+      "correct": false,
+      "reasoning": "The generated answer declines due to insufficient information, but the correct answer can be inferred from the context excerpts, which mention conditions for international remote work.",
+      "error": null
+    },
+    {
+      "question_id": "version-002",
+      "category": "version_delta",
+      "generated_answer": "I couldn't find enough information in the company knowledge base to answer this reliably. The provided context excerpts do not specify what changes were made in the most recent update to the Remote Work Policy (v3.0) [1]. The archived versions [2] and [3] provide some historical context, but the changes made in v3.0 are not detailed.",
+      "faithful": true,
+      "correct": false,
+      "reasoning": "The generated answer declines due to insufficient information, but the correct answer contains specific key facts not found in the provided context excerpts.",
+      "error": null
+    },
+    {
+      "question_id": "version-003",
+      "category": "version_delta",
+      "generated_answer": "According to the current Remote Work Policy [3] and [4], you can work internationally for a maximum of 90 days per calendar year, which can be consecutive or cumulative, in any single country.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the information provided in the context excerpts about the international remote work policy.",
+      "error": null
+    },
+    {
+      "question_id": "version-004",
+      "category": "version_delta",
+      "generated_answer": "According to the active Leave Policy [1], full-time employees currently receive 20 annual leave days per calendar year, granted as a lump sum at the start of the year. Note that this is an update from the previous policy, as outlined in the Change Summary [5], which increased the entitlement from 18 to 20 days. The Employee Handbook [2] is not up-to-date with this change, as it still references 18 days of paid annual leave.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the information provided in the context excerpts.",
+      "error": null
+    },
+    {
+      "question_id": "version-005",
+      "category": "version_delta",
+      "generated_answer": "According to [1], the most recent update to the Leave Policy (v3.0, effective 2026-07-01) introduced the following changes: \n- The annual leave entitlement was increased from 18 to 20 days.\n- The accrual method was changed from monthly accrual to an upfront annual lump sum, as further detailed in [4].\n- Carryover was introduced, allowing up to 5 days to roll over, whereas the previous version (v2.0) allowed no carryover.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the changes in the leave policy as stated in the context excerpts.",
+      "error": null
+    },
+    {
+      "question_id": "stale-001",
+      "category": "stale_reference",
+      "generated_answer": "According to the Employee Handbook [3], full-time employees are entitled to 18 days of paid annual leave per year. However, it's worth noting that the Leave Policy [1] has been updated since the Employee Handbook, and it now states that full-time employees receive 20 annual leave days per calendar year. If you're looking for the most current information, the Leave Policy [1] would be the more accurate reference.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the context excerpts and matches the reference answer's key facts.",
+      "error": null
+    },
+    {
+      "question_id": "stale-002",
+      "category": "stale_reference",
+      "generated_answer": "According to the active Leave Policy [2], full-time employees receive 20 annual leave days per calendar year. This policy supersedes the information in the Employee Handbook [1] and the archived Leave Policy [3]. Therefore, as a full-time employee, you are entitled to 20 days of paid annual leave per year.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the information in the retrieved context excerpts.",
+      "error": null
+    },
+    {
+      "question_id": "term-001",
+      "category": "term_disambiguation",
+      "generated_answer": "To request leave due to illness, you should notify your manager as soon as possible, preferably before the start of the workday [1] or as soon as reasonably possible. This is also supported by the Employee Handbook [2], which advises notifying your manager as soon as possible for illness-related absences and refers to the Attendance Policy for details. \n\nNote that if your illness-related leave extends to 3 or more consecutive days, you will need to submit a medical certificate to HR [3]. However, the initial step of notifying your manager remains the same, regardless of the duration of your leave. \n\nIt's worth distinguishing that the process for requesting leave due to illness is separate from requesting annual (vacation) leave, which has its own procedure outlined in the Leave Policy [5]. For illness-related leave, you do not need to follow the 5 business days advance notice rule that applies to annual leave requests [5].",
+      "faithful": false,
+      "correct": true,
+      "reasoning": "The generated answer introduces outside knowledge by referencing the 'Employee Handbook' which is not present in the given context excerpts.",
+      "error": null
+    },
+    {
+      "question_id": "term-002",
+      "category": "term_disambiguation",
+      "generated_answer": "According to [1], a medical certificate is required for illness-related leave of 3 or more consecutive days, which is submitted to HR. For leaves shorter than 3 consecutive days, the policy does not specify the need for a medical certificate.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the context excerpts and matches the reference answer's key facts.",
+      "error": null
+    },
+    {
+      "question_id": "term-003",
+      "category": "term_disambiguation",
+      "generated_answer": "To get remote access to internal systems from home, you must use a company-issued device and connect to the company-managed VPN, as stated in [1] and reinforced by [3]. This applies regardless of whether you are working from home as part of a remote work arrangement or just need to access internal systems from outside the office.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the context excerpts' requirements for remote access.",
+      "error": null
+    },
+    {
+      "question_id": "term-004",
+      "category": "term_disambiguation",
+      "generated_answer": "To access company systems remotely, you must use a company-issued device and connect via the company-managed VPN, as stated in [1] Acceptable Use Policy. This requirement is also reinforced by the current Remote Work Policy [3], which reiterates the need to use company-issued equipment and the VPN for remote access to internal systems.",
+      "faithful": false,
+      "correct": false,
+      "reasoning": "The generated answer lacks the required multi-factor authentication detail and incorrectly implies the Remote Work Policy is relevant to the technical requirements for remote access.",
+      "error": null
+    },
+    {
+      "question_id": "overlap-001",
+      "category": "overlapping_approval",
+      "generated_answer": "For full-time employees, no additional approval is required beyond onboarding for a standard laptop, as stated in [4]. However, for contractors, department head approval is required for any laptop issuance, as per [1]. \n\nFor purchases that exceed certain dollar thresholds, additional approval may be required, as indicated in [3], which refers to thresholds defined in the Procurement Policy. Specifically, the performance configuration (over $1,000) triggers the department head approval threshold, according to [5]. \n\nI couldn't find enough information in the company knowledge base to specify the exact dollar-based approval thresholds, as [2] and [3] mention they exist but do not provide the details.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the context excerpts and matches the key facts in the reference answer.",
+      "error": null
+    },
+    {
+      "question_id": "overlap-002",
+      "category": "overlapping_approval",
+      "generated_answer": "According to [3] Device Policy, upgrade requests above $1,000 require department head approval per the Procurement Policy. Since your requested upgrade is $2,000, which is above $1,000, you will need department head approval. Therefore, you cannot upgrade your laptop to a $2,000 configuration without approval.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the context's requirement for department head approval for upgrades above $1,000.",
+      "error": null
+    },
+    {
+      "question_id": "general-specific-001",
+      "category": "general_vs_specific",
+      "generated_answer": "The maximum travel reimbursement varies depending on the type of flight. For domestic flights, the maximum reimbursement is $600 per round trip, economy class [1]. For international flights, the maximum reimbursement is $2,500 per round trip, economy or premium economy class [1]. Additionally, meal expenses while traveling are reimbursed up to $75 per day [2]. However, to determine the overall maximum travel reimbursement, we would need to consider other potential travel expenses, but based on the provided context, the maximum reimbursement for flights and meals are as stated.",
+      "faithful": true,
+      "correct": false,
+      "reasoning": "The generated answer does not fully capture the key facts about lodging expenses and incorrectly implies that a single overall maximum can be determined from the provided context.",
+      "error": null
+    },
+    {
+      "question_id": "general-specific-002",
+      "category": "general_vs_specific",
+      "generated_answer": "According to the Expense Policy [1], you have 30 days to submit an expense after it has been incurred.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer directly quotes the context excerpt stating the 30-day submission window.",
+      "error": null
+    },
+    {
+      "question_id": "baseline-001",
+      "category": "clean_baseline",
+      "generated_answer": "According to the Password Policy [4], the password requirements are as follows: \n- The minimum length of a password is 14 characters.\n- A password must not reuse any of the previous 10 passwords.\n- A password must be changed every 180 days.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the password requirements stated in the context excerpts.",
+      "error": null
+    },
+    {
+      "question_id": "baseline-002",
+      "category": "clean_baseline",
+      "generated_answer": "According to the [1] Password Policy, you need to change your password every 180 days.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer directly matches the key fact from the context excerpts.",
+      "error": null
+    },
+    {
+      "question_id": "baseline-003",
+      "category": "clean_baseline",
+      "generated_answer": "If you suspect your password has been compromised, you should report it to IT Security immediately, as stated in the Password Policy [1].",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer directly matches the key fact from the reference answer and is supported by the context excerpts.",
+      "error": null
+    },
+    {
+      "question_id": "baseline-004",
+      "category": "clean_baseline",
+      "generated_answer": "According to the Conflict of Interest Policy [1], a conflict of interest arises when an employee's personal interests could improperly influence, or appear to influence, their professional judgment or decisions on behalf of Nexora Technologies.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer directly quotes the context excerpt that defines a conflict of interest.",
+      "error": null
+    },
+    {
+      "question_id": "baseline-005",
+      "category": "clean_baseline",
+      "generated_answer": "According to [1] and [2], gifts from vendors with a value under $100 may be accepted without disclosure, but gifts valued at $100 or more must be disclosed to a manager. Therefore, it depends on the value of the gift. If the gift is under $100, you do not need to disclose it, but if it's $100 or more, you must disclose it to your manager, as stated in [2].",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the context excerpts regarding gift disclosure requirements.",
+      "error": null
+    },
+    {
+      "question_id": "baseline-006",
+      "category": "clean_baseline",
+      "generated_answer": "According to [3] Employee Handbook, violations of the Code of Conduct may result in disciplinary action up to and including termination. Additionally, [1] Acceptable Use Policy mentions that violations of the policy, which includes using company systems for activity that violates the Code of Conduct [5], may result in suspension of system access and disciplinary action under the Code of Conduct.",
+      "faithful": false,
+      "correct": true,
+      "reasoning": "The generated answer introduces outside knowledge by referencing specific handbook and policy numbers not present in the context excerpts.",
+      "error": null
+    },
+    {
+      "question_id": "coverage-001",
+      "category": "broad_coverage",
+      "generated_answer": "According to the Attendance Policy [1], you are expected to be available during core hours of 10:00 AM to 4:00 PM local time.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer directly quotes the core hours from the provided context.",
+      "error": null
+    },
+    {
+      "question_id": "coverage-002",
+      "category": "broad_coverage",
+      "generated_answer": "According to [1] Benefits Policy, health insurance coverage for new full-time employees begins after a 90-day probationary period.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer directly matches the context excerpt regarding the start of health insurance coverage for new full-time employees.",
+      "error": null
+    },
+    {
+      "question_id": "coverage-003",
+      "category": "broad_coverage",
+      "generated_answer": "According to the Benefits Policy [1], yes, the company matches retirement contributions up to 4% of base salary for eligible full-time employees.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the information provided in the context excerpts.",
+      "error": null
+    },
+    {
+      "question_id": "coverage-004",
+      "category": "broad_coverage",
+      "generated_answer": "According to [1], the standard working hours are 9:00 AM to 6:00 PM local time, Monday through Friday, with a one-hour lunch break. However, [4] also defines core working hours as 10:00 AM to 4:00 PM, which employees are expected to be available during, but it does not explicitly state this is the full workday. The full standard workday, including the start and end times, is most clearly defined in [1].",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately quotes the context excerpts to define the standard work day.",
+      "error": null
+    },
+    {
+      "question_id": "coverage-005",
+      "category": "broad_coverage",
+      "generated_answer": "As a full-time employee, according to [1] Device Policy, you are issued a standard laptop on your first day of employment. Additionally, [2] Employee Handbook mentions that employees are issued standard equipment on their first day, but it refers to the Device Policy for details, which, as mentioned, includes a standard laptop for full-time employees.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the information provided in the context excerpts about the equipment issued to full-time employees.",
+      "error": null
+    },
+    {
+      "question_id": "coverage-006",
+      "category": "broad_coverage",
+      "generated_answer": "According to [2] Device Policy, all company-issued equipment, including laptops, must be returned upon termination of employment. This rule applies to all employees, regardless of whether you're a full-time employee or a contractor. Therefore, yes, you will need to return your laptop when you leave the company.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the context excerpt regarding the return of company-issued equipment.",
+      "error": null
+    },
+    {
+      "question_id": "coverage-007",
+      "category": "broad_coverage",
+      "generated_answer": "I couldn't find enough information in the company knowledge base to answer this reliably. While [1] mentions that employees must disclose any outside employment or consulting arrangement, it doesn't specify the process for doing so. [2] states that the Conflict of Interest Policy defines the process for disclosing a conflict of interest, but the details of this process are not provided in the given context excerpts.",
+      "faithful": true,
+      "correct": false,
+      "reasoning": "The generated answer declines due to insufficient information, but the context excerpts do provide some relevant details about the disclosure process.",
+      "error": null
+    },
+    {
+      "question_id": "coverage-008",
+      "category": "broad_coverage",
+      "generated_answer": "According to [1] Password Policy and [2] Acceptable Use Policy, multi-factor authentication (MFA) is required for all accounts with access to internal systems, including remote access. This suggests that if you have an account with access to internal systems, MFA is indeed required. However, without more specific information about your role or the type of account you're referring to, I couldn't find enough information to answer this with absolute certainty for your specific situation.",
+      "faithful": true,
+      "correct": false,
+      "reasoning": "The generated answer introduces unnecessary uncertainty not supported by the context excerpts.",
+      "error": null
+    },
+    {
+      "question_id": "paraphrase-001",
+      "category": "paraphrase_hard",
+      "generated_answer": "According to [1] Remote Work Policy (v2.0, archived, effective 2025-03-01), international remote work is permitted, but it is capped at 30 days/year with manager approval only. However, please note that this policy is archived, and there might be a newer version that is active. Unfortunately, I couldn't find the current active version of the Remote Work Policy in the provided context. \n\nIf we consider the archived version [1], you would be allowed to work remotely in Dubai for up to 30 days with manager approval. But I would recommend checking with your manager or HR for the most up-to-date policy, as the archived version might not reflect the current rules.",
+      "faithful": true,
+      "correct": false,
+      "reasoning": "The generated answer relies on an archived policy and does not match the key facts in the reference answer.",
+      "error": null
+    },
+    {
+      "question_id": "paraphrase-002",
+      "category": "paraphrase_hard",
+      "generated_answer": "According to the context excerpts, for purchases over $1,000, the approval process is not explicitly stated in [3] Procurement Policy (v1.0, active, effective 2025-05-01), but it mentions that purchases under $1,000 may be approved directly by the requesting employee's manager. \n\nHowever, [4] Device Policy (v1.0, active, effective 2025-05-01) mentions that requests for the performance configuration (over $1,000) trigger the department head approval threshold defined in the Procurement Policy. Although the Procurement Policy does not explicitly state the approval threshold for purchases over $1,000, we can infer from [4] that department head approval is required for such purchases.\n\nTherefore, for a $3000 workstation, the department head would need to sign off, in addition to any other approvals that may be required by the Procurement Policy (which are not specified in the provided context).",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately infers the need for department head approval based on the provided context excerpts.",
+      "error": null
+    },
+    {
+      "question_id": "paraphrase-003",
+      "category": "paraphrase_hard",
+      "generated_answer": "According to the Conflict of Interest Policy [1] and [2], it depends on the value of the watch. If the watch is valued under $100, you may accept it without disclosure [1]. However, if the watch is valued at $100 or more, you must disclose it to your manager and it may need to be declined or surrendered to the company [2]. Without knowing the exact value of the watch, I couldn't determine the specific course of action.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the context excerpts regarding gift acceptance policies based on value.",
+      "error": null
+    },
+    {
+      "question_id": "insufficient-001",
+      "category": "insufficient_evidence",
+      "generated_answer": "I couldn't find enough information in the company knowledge base to answer this reliably. The provided context excerpts do not mention maternity or parental leave policies. They discuss attendance, annual (vacation) leave, and remote work policies, but do not cover family leave or related benefits.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the lack of information in the context excerpts about maternity or parental leave policies.",
+      "error": null
+    },
+    {
+      "question_id": "insufficient-002",
+      "category": "insufficient_evidence",
+      "generated_answer": "I couldn't find enough information in the company knowledge base to answer this reliably. The provided context excerpts do not mention stock options or equity compensation.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer accurately reflects the lack of information in the context excerpts about stock options or equity compensation.",
+      "error": null
+    },
+    {
+      "question_id": "insufficient-003",
+      "category": "insufficient_evidence",
+      "generated_answer": "I couldn't find enough information in the company knowledge base to answer this reliably. The provided context excerpts do not mention the process for filing a workers' compensation claim.",
+      "faithful": true,
+      "correct": true,
+      "reasoning": "The generated answer correctly states that it couldn't find enough information to answer the question about filing a workers' compensation claim.",
+      "error": null
+    }
+  ]
+}

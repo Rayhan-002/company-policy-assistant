@@ -1,0 +1,364 @@
+[
+  {
+    "id": "applicability-001",
+    "category": "applicability_conflict",
+    "question": "I'm a contractor. How many annual leave days do I get?",
+    "gold_references": [
+      {"document_id": "contractor-policy", "version": "1.0", "section_name": "Benefits Eligibility", "subsection_name": "Annual Leave"},
+      {"document_id": "leave-policy", "version": "3.0", "section_name": "Eligibility", "subsection_name": "Contractors"}
+    ],
+    "reference_answer": "Contractors are not eligible for annual leave under the Leave Policy. Time off for contractors is governed by their individual contractor agreement instead.",
+    "notes": "Live-tested known failure: the reranker ranks this chunk below generic full-time eligibility chunks (see progress.md)."
+  },
+  {
+    "id": "applicability-002",
+    "category": "applicability_conflict",
+    "question": "Am I eligible for health insurance as a contractor?",
+    "gold_references": [
+      {"document_id": "contractor-policy", "version": "1.0", "section_name": "Benefits Eligibility", "subsection_name": "Health Benefits"},
+      {"document_id": "benefits-policy", "version": "1.0", "section_name": "Eligibility", "subsection_name": "Contractors"}
+    ],
+    "reference_answer": "No. Contractors are not eligible for health insurance or other benefits described in the Benefits Policy."
+  },
+  {
+    "id": "applicability-003",
+    "category": "applicability_conflict",
+    "question": "Can I get a company laptop as a contractor?",
+    "gold_references": [
+      {"document_id": "contractor-policy", "version": "1.0", "section_name": "Benefits Eligibility", "subsection_name": "Equipment"},
+      {"document_id": "device-policy", "version": "1.0", "section_name": "Eligibility", "subsection_name": "Contractors"}
+    ],
+    "reference_answer": "Contractors may be issued a laptop, but only with department head approval, and the issuance still follows the Procurement Policy's approval thresholds."
+  },
+  {
+    "id": "applicability-004",
+    "category": "applicability_conflict",
+    "question": "Do contractors have to follow the company's Code of Conduct?",
+    "gold_references": [
+      {"document_id": "contractor-policy", "version": "1.0", "section_name": "Applicable Policies", "subsection_name": null}
+    ],
+    "reference_answer": "Yes. Contractors remain subject to the Code of Conduct, the Conflict of Interest Policy, and the Acceptable Use Policy for the duration of their engagement, even though they're excluded from the leave and benefits policies."
+  },
+  {
+    "id": "version-001",
+    "category": "version_delta",
+    "question": "Can I work remotely from another country?",
+    "gold_references": [
+      {"document_id": "remote-work-policy", "version": "3.0", "section_name": "International Remote Work", "subsection_name": null}
+    ],
+    "reference_answer": "Yes, up to 90 days per calendar year in any single country, with manager, HR, and Legal approval, plus a Cross-Border Work Notification filed with HR in advance."
+  },
+  {
+    "id": "version-002",
+    "category": "version_delta",
+    "question": "What changed in the remote work policy in the most recent update?",
+    "gold_references": [
+      {"document_id": "remote-work-policy", "version": "3.0", "section_name": "Change Summary from v2.0", "subsection_name": null}
+    ],
+    "reference_answer": "The international remote work cap increased from 30 to 90 days per year, approval now requires HR and Legal sign-off in addition to manager approval, and a new Cross-Border Work Notification filing is required."
+  },
+  {
+    "id": "version-003",
+    "category": "version_delta",
+    "question": "How many days can I work internationally under the current remote work policy?",
+    "gold_references": [
+      {"document_id": "remote-work-policy", "version": "3.0", "section_name": "International Remote Work", "subsection_name": null}
+    ],
+    "reference_answer": "Up to 90 days per calendar year in any single country."
+  },
+  {
+    "id": "version-004",
+    "category": "version_delta",
+    "question": "How many annual leave days do full-time employees currently get?",
+    "gold_references": [
+      {"document_id": "leave-policy", "version": "3.0", "section_name": "Eligibility", "subsection_name": "Full-Time Employees"}
+    ],
+    "reference_answer": "20 annual leave days per calendar year, granted as a lump sum at the start of the year."
+  },
+  {
+    "id": "version-005",
+    "category": "version_delta",
+    "question": "What changed in the leave policy's most recent update?",
+    "gold_references": [
+      {"document_id": "leave-policy", "version": "3.0", "section_name": "Change Summary from v2.0", "subsection_name": null}
+    ],
+    "reference_answer": "Annual leave increased from 18 to 20 days, accrual changed from monthly to an upfront annual lump sum, and up to 5 days of carryover was introduced (previously none)."
+  },
+  {
+    "id": "stale-001",
+    "category": "stale_reference",
+    "question": "According to the employee handbook, how many annual leave days do I get?",
+    "gold_references": [
+      {"document_id": "employee-handbook", "version": "1.0", "section_name": "Time Off", "subsection_name": "Annual Leave"}
+    ],
+    "reference_answer": "The Employee Handbook states 18 days, but this is outdated — the current Leave Policy (v3.0) grants 20 days.",
+    "notes": "Tests whether the assistant reproduces the Handbook's stale figure faithfully when explicitly asked about the Handbook, while ideally still flagging that it's outdated relative to Leave Policy v3.0."
+  },
+  {
+    "id": "stale-002",
+    "category": "stale_reference",
+    "question": "How many days in a year can I get paid leave?",
+    "gold_references": [
+      {"document_id": "leave-policy", "version": "3.0", "section_name": "Eligibility", "subsection_name": "Full-Time Employees"}
+    ],
+    "reference_answer": "20 days per calendar year for full-time employees, per the current Leave Policy (v3.0) — not the 18 days stated in the older Employee Handbook summary.",
+    "notes": "Live-tested known failure: model presented the Handbook's stale 18-day figure as equally valid instead of confidently answering 20 (see progress.md)."
+  },
+  {
+    "id": "term-001",
+    "category": "term_disambiguation",
+    "question": "How do I request leave due to illness?",
+    "gold_references": [
+      {"document_id": "attendance-policy", "version": "1.0", "section_name": "Leave Due to Illness", "subsection_name": "Notification"},
+      {"document_id": "attendance-policy", "version": "1.0", "section_name": "Leave Due to Illness", "subsection_name": "Duration and Documentation"}
+    ],
+    "reference_answer": "Notify your manager before the start of the workday or as soon as reasonably possible. Illness of 3+ consecutive days requires a medical certificate submitted to HR."
+  },
+  {
+    "id": "term-002",
+    "category": "term_disambiguation",
+    "question": "Do I need a medical certificate for sick leave?",
+    "gold_references": [
+      {"document_id": "attendance-policy", "version": "1.0", "section_name": "Leave Due to Illness", "subsection_name": "Duration and Documentation"}
+    ],
+    "reference_answer": "Only for illness-related leave of 3 or more consecutive days — that requires a medical certificate submitted to HR."
+  },
+  {
+    "id": "term-003",
+    "category": "term_disambiguation",
+    "question": "How do I get remote access to internal systems from home?",
+    "gold_references": [
+      {"document_id": "acceptable-use-policy", "version": "1.0", "section_name": "Remote Access", "subsection_name": "VPN Requirement"}
+    ],
+    "reference_answer": "Remote access to internal systems is permitted only via the company-managed VPN, from a company-issued device."
+  },
+  {
+    "id": "term-004",
+    "category": "term_disambiguation",
+    "question": "What's required to access company systems remotely?",
+    "gold_references": [
+      {"document_id": "acceptable-use-policy", "version": "1.0", "section_name": "Remote Access", "subsection_name": "VPN Requirement"},
+      {"document_id": "acceptable-use-policy", "version": "1.0", "section_name": "Remote Access", "subsection_name": "Multi-Factor Authentication"}
+    ],
+    "reference_answer": "The company-managed VPN from a company-issued device, plus multi-factor authentication."
+  },
+  {
+    "id": "overlap-001",
+    "category": "overlapping_approval",
+    "question": "What approval is required for a laptop purchase?",
+    "gold_references": [
+      {"document_id": "procurement-policy", "version": "1.0", "section_name": "Equipment Purchases", "subsection_name": null},
+      {"document_id": "device-policy", "version": "1.0", "section_name": "Standard Configurations", "subsection_name": null}
+    ],
+    "reference_answer": "It depends on the configuration cost: standard configurations (under $1,000) need no extra approval beyond onboarding; performance configurations (over $1,000) trigger the Procurement Policy's department-head approval threshold."
+  },
+  {
+    "id": "overlap-002",
+    "category": "overlapping_approval",
+    "question": "Can I upgrade my laptop to a $2,000 configuration without approval?",
+    "gold_references": [
+      {"document_id": "device-policy", "version": "1.0", "section_name": "Replacement and Upgrades", "subsection_name": null},
+      {"document_id": "procurement-policy", "version": "1.0", "section_name": "Approval Thresholds", "subsection_name": "Purchases Between $1,000 and $5,000"}
+    ],
+    "reference_answer": "No — upgrade requests above $1,000 require department head approval per the Procurement Policy."
+  },
+  {
+    "id": "general-specific-001",
+    "category": "general_vs_specific",
+    "question": "What is the maximum travel reimbursement?",
+    "gold_references": [
+      {"document_id": "travel-policy", "version": "1.0", "section_name": "Reimbursement Limits", "subsection_name": "Airfare"},
+      {"document_id": "travel-policy", "version": "1.0", "section_name": "Reimbursement Limits", "subsection_name": "Lodging"},
+      {"document_id": "travel-policy", "version": "1.0", "section_name": "Reimbursement Limits", "subsection_name": "Meals"}
+    ],
+    "reference_answer": "There's no single overall cap — limits are per category: airfare up to $600 domestic / $2,500 international, lodging up to $200/night domestic / $300/night international, meals up to $75/day."
+  },
+  {
+    "id": "general-specific-002",
+    "category": "general_vs_specific",
+    "question": "How long do I have to submit an expense after incurring it?",
+    "gold_references": [
+      {"document_id": "expense-policy", "version": "1.0", "section_name": "Submission and Approval", "subsection_name": "Submission Window"}
+    ],
+    "reference_answer": "30 days from when the expense was incurred."
+  },
+  {
+    "id": "baseline-001",
+    "category": "clean_baseline",
+    "question": "What are the password requirements?",
+    "gold_references": [
+      {"document_id": "password-policy", "version": "1.0", "section_name": "Password Requirements", "subsection_name": null}
+    ],
+    "reference_answer": "Minimum 14 characters, must not reuse any of the previous 10 passwords, and must be changed every 180 days."
+  },
+  {
+    "id": "baseline-002",
+    "category": "clean_baseline",
+    "question": "How often do I need to change my password?",
+    "gold_references": [
+      {"document_id": "password-policy", "version": "1.0", "section_name": "Password Requirements", "subsection_name": null}
+    ],
+    "reference_answer": "Every 180 days."
+  },
+  {
+    "id": "baseline-003",
+    "category": "clean_baseline",
+    "question": "What should I do if I suspect my password has been compromised?",
+    "gold_references": [
+      {"document_id": "password-policy", "version": "1.0", "section_name": "Compromised Credentials", "subsection_name": null}
+    ],
+    "reference_answer": "Report it to IT Security immediately."
+  },
+  {
+    "id": "baseline-004",
+    "category": "clean_baseline",
+    "question": "What is considered a conflict of interest?",
+    "gold_references": [
+      {"document_id": "conflict-of-interest-policy", "version": "1.0", "section_name": "What Constitutes a Conflict", "subsection_name": null}
+    ],
+    "reference_answer": "When an employee's personal interests could improperly influence, or appear to influence, their professional judgment or decisions on behalf of the company."
+  },
+  {
+    "id": "baseline-005",
+    "category": "clean_baseline",
+    "question": "Do I need to disclose gifts from vendors?",
+    "gold_references": [
+      {"document_id": "conflict-of-interest-policy", "version": "1.0", "section_name": "Gifts and Entertainment", "subsection_name": "Gifts Requiring Disclosure"},
+      {"document_id": "conflict-of-interest-policy", "version": "1.0", "section_name": "Gifts and Entertainment", "subsection_name": "Acceptable Gifts"}
+    ],
+    "reference_answer": "Gifts under $100 may be accepted without disclosure; gifts valued at $100 or more must be disclosed to a manager and may need to be declined or surrendered."
+  },
+  {
+    "id": "baseline-006",
+    "category": "clean_baseline",
+    "question": "What happens if I violate the code of conduct?",
+    "gold_references": [
+      {"document_id": "code-of-conduct", "version": "1.0", "section_name": "Enforcement", "subsection_name": null}
+    ],
+    "reference_answer": "Disciplinary action, up to and including termination of employment or contractor engagement."
+  },
+  {
+    "id": "coverage-001",
+    "category": "broad_coverage",
+    "question": "What are the core working hours I need to be available?",
+    "gold_references": [
+      {"document_id": "attendance-policy", "version": "1.0", "section_name": "Core Working Hours", "subsection_name": null}
+    ],
+    "reference_answer": "10:00 AM to 4:00 PM local time, regardless of whether you're working on-site or remotely."
+  },
+  {
+    "id": "coverage-002",
+    "category": "broad_coverage",
+    "question": "When does health insurance coverage begin for new full-time employees?",
+    "gold_references": [
+      {"document_id": "benefits-policy", "version": "1.0", "section_name": "Eligibility", "subsection_name": "Full-Time Employees"}
+    ],
+    "reference_answer": "After a 90-day probationary period."
+  },
+  {
+    "id": "coverage-003",
+    "category": "broad_coverage",
+    "question": "Does the company match retirement contributions?",
+    "gold_references": [
+      {"document_id": "benefits-policy", "version": "1.0", "section_name": "Coverage", "subsection_name": "Retirement Contribution"}
+    ],
+    "reference_answer": "Yes, up to 4% of base salary for eligible full-time employees."
+  },
+  {
+    "id": "coverage-004",
+    "category": "broad_coverage",
+    "question": "What is the standard work day?",
+    "gold_references": [
+      {"document_id": "employee-handbook", "version": "1.0", "section_name": "Employment Basics", "subsection_name": "Working Hours"}
+    ],
+    "reference_answer": "9:00 AM to 6:00 PM local time, Monday through Friday, with a one-hour lunch break."
+  },
+  {
+    "id": "coverage-005",
+    "category": "broad_coverage",
+    "question": "What equipment do I get when I join as a full-time employee?",
+    "gold_references": [
+      {"document_id": "device-policy", "version": "1.0", "section_name": "Eligibility", "subsection_name": "Full-Time Employees"}
+    ],
+    "reference_answer": "A standard laptop, issued on your first day, with no additional approval required beyond onboarding."
+  },
+  {
+    "id": "coverage-006",
+    "category": "broad_coverage",
+    "question": "Do I need to return my laptop when I leave the company?",
+    "gold_references": [
+      {"document_id": "device-policy", "version": "1.0", "section_name": "Return of Equipment", "subsection_name": null}
+    ],
+    "reference_answer": "Yes, all company-issued equipment must be returned upon termination of employment or contractor engagement."
+  },
+  {
+    "id": "coverage-007",
+    "category": "broad_coverage",
+    "question": "What's the process for disclosing outside employment or consulting work?",
+    "gold_references": [
+      {"document_id": "conflict-of-interest-policy", "version": "1.0", "section_name": "Outside Employment", "subsection_name": null}
+    ],
+    "reference_answer": "Disclose it before accepting, particularly if it's with a competitor, customer, or supplier."
+  },
+  {
+    "id": "coverage-008",
+    "category": "broad_coverage",
+    "question": "Is multi-factor authentication required for my accounts?",
+    "gold_references": [
+      {"document_id": "password-policy", "version": "1.0", "section_name": "Multi-Factor Authentication", "subsection_name": null}
+    ],
+    "reference_answer": "Yes, MFA is required for all accounts with access to internal systems."
+  },
+  {
+    "id": "paraphrase-001",
+    "category": "paraphrase_hard",
+    "question": "I am planning to go to dubai next month for relaxing time, how long can i stay there and work remotely",
+    "gold_references": [
+      {"document_id": "remote-work-policy", "version": "3.0", "section_name": "International Remote Work", "subsection_name": null}
+    ],
+    "reference_answer": "Up to 90 days per calendar year, with manager, HR, and Legal approval plus a Cross-Border Work Notification.",
+    "notes": "Live-tested known failure: BM25 confidently matches 'Domestic Remote Work' on the literal phrase 'work remotely,' outranking the semantically-correct International Remote Work chunk. No RRF k value fixes this — needs query understanding (see progress.md)."
+  },
+  {
+    "id": "paraphrase-002",
+    "category": "paraphrase_hard",
+    "question": "My manager wants me to buy a new $3000 workstation for a project, who needs to sign off?",
+    "gold_references": [
+      {"document_id": "procurement-policy", "version": "1.0", "section_name": "Approval Thresholds", "subsection_name": "Purchases Between $1,000 and $5,000"}
+    ],
+    "reference_answer": "Department head approval, in addition to manager approval, since it's between $1,000 and $5,000."
+  },
+  {
+    "id": "paraphrase-003",
+    "category": "paraphrase_hard",
+    "question": "If someone offers me a nice watch as a thank-you gift, can I keep it?",
+    "gold_references": [
+      {"document_id": "conflict-of-interest-policy", "version": "1.0", "section_name": "Gifts and Entertainment", "subsection_name": "Gifts Requiring Disclosure"}
+    ],
+    "reference_answer": "Only if it's worth less than $100 — otherwise it must be disclosed to a manager and may need to be declined or surrendered."
+  },
+  {
+    "id": "insufficient-001",
+    "category": "insufficient_evidence",
+    "question": "What is the company's maternity or parental leave policy?",
+    "gold_references": [],
+    "expects_insufficient_evidence": true,
+    "reference_answer": "The knowledge base does not contain a maternity/parental leave policy; the assistant should say it can't find reliable information rather than guessing."
+  },
+  {
+    "id": "insufficient-002",
+    "category": "insufficient_evidence",
+    "question": "Does the company offer stock options or equity compensation?",
+    "gold_references": [],
+    "expects_insufficient_evidence": true,
+    "reference_answer": "The knowledge base does not cover stock options or equity compensation; the assistant should say it can't find reliable information rather than guessing."
+  },
+  {
+    "id": "insufficient-003",
+    "category": "insufficient_evidence",
+    "question": "What is the process for filing a workers' compensation claim?",
+    "gold_references": [],
+    "expects_insufficient_evidence": true,
+    "reference_answer": "The knowledge base does not cover workers' compensation claims; the assistant should say it can't find reliable information rather than guessing."
+  }
+]
