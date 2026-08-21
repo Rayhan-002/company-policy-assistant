@@ -4,6 +4,7 @@ from .hybrid import HybridRetriever, reciprocal_rank_fusion
 from .pipeline import RetrievedChunk, Retriever
 from .reranker import rerank
 from .vector_index import VectorIndex
+from .version_preference import prefer_active_version
 
 __all__ = [
     "embed_passages",
@@ -15,4 +16,5 @@ __all__ = [
     "rerank",
     "Retriever",
     "RetrievedChunk",
+    "prefer_active_version",
 ]
